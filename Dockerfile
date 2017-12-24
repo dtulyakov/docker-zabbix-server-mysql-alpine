@@ -5,4 +5,3 @@ RUN apk update \
     && apk add -q --clean-protected --no-cache \
             curl \
     && rm -rf /var/cache/apk/*
-
