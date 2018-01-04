@@ -11,7 +11,7 @@ MESSAGE="$3"
 # Определяем emoji для темы сообщения
 if [ "$SUBJECT" = "PROBLEM" ];
 then
-        ICON="❗️"
+        ICON="🔥"
 elif [ "$SUBJECT" = "OK" ];
 then
         ICON="✅"
