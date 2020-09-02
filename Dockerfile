@@ -1,5 +1,9 @@
-FROM zabbix/zabbix-server-mysql:alpine-3.4-latest
-LABEL maintainer "Denis Tulyakov <dtulyakov@gmail.com>"
+FROM zabbix/zabbix-server-mysql:alpine-5.0-latest
+
+LABEL \
+  org.label-schema.schema-version="5" \
+  org.label-schema.vendor="dtulyakov"
+
 
 RUN apk update \
     && apk add -q --clean-protected --no-cache \
